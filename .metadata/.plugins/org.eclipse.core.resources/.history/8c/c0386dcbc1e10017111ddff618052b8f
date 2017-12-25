@@ -1,0 +1,31 @@
+package com.luv2code.springdemo;
+
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+public class Task3 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		// setting up the spring config/container
+		ClassPathXmlApplicationContext context = 
+				new ClassPathXmlApplicationContext("beanScopebeanLifeCycleTask.xml");
+		
+		
+		// retrieving the bean
+		Coach bad = context.getBean("BadCoach",Coach.class);
+		
+		
+		// Using a function in the bean
+		System.out.println(bad.getDailyWorkout());
+		
+		System.out.println(bad.startWithThis());
+		
+		// Close the context
+		context.close();
+		
+		
+
+	}
+
+}

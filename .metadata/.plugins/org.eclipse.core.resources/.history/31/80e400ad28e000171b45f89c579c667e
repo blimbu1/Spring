@@ -1,0 +1,29 @@
+package com.luv2code.springdemo;
+
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+public class SetterDemoApp {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		//load the spring configuration file
+		ClassPathXmlApplicationContext context = 
+				new ClassPathXmlApplicationContext("applicationContext.xml");
+		
+		
+		// retrieve bean from spring container
+		Coach cricketobject = context.getBean("Cricket",CricketCoach.class);
+		
+		
+		// call methods on the bean
+		//.....coming back to this later......
+		
+		
+		//close the context
+		context.close();
+		
+
+	}
+
+}

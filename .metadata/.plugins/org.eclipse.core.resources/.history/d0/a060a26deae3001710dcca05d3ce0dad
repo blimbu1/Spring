@@ -1,0 +1,32 @@
+package com.luv2code.springdemo;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
+import org.springframework.stereotype.Component;
+
+@Component
+public class SwimCoach implements Coach {
+	
+	
+	private FortuneService randomService;
+	
+	// Autowired should be with the constructor not the reference variable
+	
+	@Autowired
+	public SwimCoach(@Qualifier("randomFortuneService") FortuneService fortune) {
+		randomService = fortune;
+	}
+
+	@Override
+	public String getDailyWorout() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public String getDailyFortune() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

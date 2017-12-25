@@ -1,0 +1,38 @@
+package com.luv2code.springdemo;
+
+import java.util.Random;
+
+import org.springframework.stereotype.Component;
+
+@Component
+public class DatabaseFortuneService implements FortuneService {
+	
+	private String entry0;
+	
+	private String entry1;
+	
+	private String entry2;
+	
+	private String entry3;
+	
+		
+	private String[] readings = new String[4];
+	
+	private Random rans = new Random();
+	
+	public DatabaseFortuneService() {
+		readings[0] = entry0;
+		readings[1] = entry1;
+		readings[2] = entry2;
+		readings[3] = entry3;
+	}
+
+	@Override
+	public String getFortune() {
+		
+		int index = rans.nextInt(4);
+		// TODO Auto-generated method stub
+		return readings[index];
+	}
+
+}

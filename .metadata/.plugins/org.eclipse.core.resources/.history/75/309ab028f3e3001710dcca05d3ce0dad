@@ -1,0 +1,18 @@
+package com.luv2code.springdemo;
+
+@Component
+public class ArcheryCoach implements Coach {
+
+	@Override
+	public String getDailyWorout() {
+		// TODO Auto-generated method stub
+		return "Fore Arm Strengthening for 30 mins";
+	}
+
+	@Override
+	public String getDailyFortune() {
+		// TODO Auto-generated method stub
+		return ;
+	}
+
+}

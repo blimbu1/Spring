@@ -1,0 +1,29 @@
+package com.luv2code.springdemo;
+
+public class TrackCoach implements Coach {
+	
+	// Defining a private field for dependency
+	private FortuneService grateful;
+	
+	// Defining a constructor in class for dependency injection
+	public TrackCoach(FortuneService grate) {
+		grateful = grate;
+	}
+
+	@Override
+	public String getDailyWorkout() {
+		// TODO Auto-generated method stub
+		return "Run a hard 5k";
+	}
+	
+	public String motivation() {
+		return "Go hard or Go Home";		
+	}
+
+	@Override
+	public String getDailyFortune() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

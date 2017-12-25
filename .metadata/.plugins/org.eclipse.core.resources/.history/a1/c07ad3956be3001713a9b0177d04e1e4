@@ -1,0 +1,35 @@
+package com.luv2code.springdemo;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
+
+@Component("thatSillyCoach")
+public class TennisCoach implements Coach {
+	
+	
+	private FortuneService fortuneService;
+	
+	// Spring will look for classes that implements Fortuneservice 
+	// Create an object and then inject it.
+	
+	@Autowired
+	@Qualifier("happyFortuneService")
+	public TennisCoach(FortuneService fortune) {
+		fortuneService = fortune;
+	}
+
+	@Override
+	public String getDailyWorout() {
+		
+		return "Practice your backhand Volley";
+	}
+
+	@Override
+	public String getDailyFortune() {
+		// TODO Auto-generated method stub
+		return fortuneService.getFortune();
+	}
+	
+
+
+}

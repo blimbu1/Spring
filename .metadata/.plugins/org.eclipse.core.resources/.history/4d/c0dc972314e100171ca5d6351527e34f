@@ -1,0 +1,20 @@
+package com.luv2code.springdemo;
+
+public class BadmintionCoach implements Coach{
+	
+	@Override
+	public String getDailyWorkout() {
+		
+	}
+	
+	@Override
+	public String getDailyFortune() {
+		
+	}
+	
+	@Override
+	public String motivation() {
+		
+	}
+
+}

@@ -1,0 +1,22 @@
+package com.luv2code.springdemo;
+
+import java.util.Random;
+
+public class HappyFortuneServie implements FortuneService {
+
+	@Override
+	public String getFortune() {
+		// TODO Auto-generated method stub
+		String[] fort = {"Fortune favours the brave","Today is your day","The year of the snake",
+				"Be grateful for the things you have","Be here now"};
+		int j = indexValue();
+		return fort[j];
+	}
+	
+	private int indexValue() {
+		Random rn = new Random();
+		return rn.nextInt(5);
+		
+	}
+
+}
