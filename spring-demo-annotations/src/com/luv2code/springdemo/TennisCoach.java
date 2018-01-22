@@ -1,10 +1,16 @@
 package com.luv2code.springdemo;
 
+import javax.annotation.PostConstruct;
+import javax.annotation.PreDestroy;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
+import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Component;
 
 @Component("thatSillyCoach")
+
+//@Scope("prototype") removing scope for this particular exercise.
 public class TennisCoach implements Coach {
 	
 	@Autowired
@@ -24,6 +30,19 @@ public class TennisCoach implements Coach {
 	
 	public TennisCoach() {
 		System.out.println("TennisCoach: Inside the default constructor");
+	}
+	
+	// define my init method
+	@PostConstruct //method must be void
+	public void doMyStartUpStuff() {
+		System.out.println(">> TennisCoach: inside of doMyStartUpStuff()");
+	}
+	
+	
+	// define my destroy method
+	@PreDestroy //method must be void
+	public void doMyCleanUpStuff() {
+		System.out.println(">>TennisCoach: inside of doMyCleanupStuff()");
 	}
 	
 	@Override
