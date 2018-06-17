@@ -12,12 +12,15 @@ public class QueryStudentDemo {
 
 	public static void main(String[] args) {
 		
+		// create session factory		
 		SessionFactory factory = new Configuration()
 								 .configure("hibernate.cfg.xml")
 								 .addAnnotatedClass(Student.class)
 								 .buildSessionFactory();
 		
+		// create session
 		Session session = factory.getCurrentSession();
+		//Hibernate has a query language called HQL
 		
 		try {
 			
@@ -25,6 +28,7 @@ public class QueryStudentDemo {
 			session.beginTransaction();
 			
 			// query students
+			// the statement returns all the student objects.
 			List<Student> theStudents = session.createQuery("from Student").getResultList();
 			
 			
@@ -32,6 +36,7 @@ public class QueryStudentDemo {
 			displayStudents(theStudents);
 			
 			//query students: lastName = 'Doe'
+			//lastName is the object property not the column_name.
 			theStudents = session.createQuery("from Student s where s.lastName='Doe'").getResultList();
 			
 			
@@ -46,7 +51,8 @@ public class QueryStudentDemo {
 			
 			System.out.println("\n\nStudents who have last name of Doe or first name Daffy");
 			displayStudents(theStudents);
-			
+		
+			// the first query is required for us to be able to use the variable theStudents
 			
 			// query of students whose email ends with @gmail.com
 			theStudents = session.createQuery("from Student s where s.email LIKE '%gmail%'").getResultList();

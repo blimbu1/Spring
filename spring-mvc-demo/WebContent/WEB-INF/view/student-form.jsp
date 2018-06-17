@@ -32,6 +32,26 @@
 	
 	<br><br>
 	
+	Favourite Language:
+	
+	<!--  This can be assigned similarly to the country.See source code. -->
+	<!--  Radio buttons enables you to select only one -->	
+	<!--  On submit, Spring will call student.favoriteLanguage(....) -->
+	Java <form:radiobutton path="favoriteLanguage" value="Java" />
+	C# <form:radiobutton path="favoriteLanguage" value="C#" />
+	PHP<form:radiobutton path="favoriteLanguage" value="PHP"/>
+	Ruby<form:radiobutton path="favoriteLanguage" value="Ruby" />
+	
+	<br><br>
+	
+	Operating systems:
+	
+	Linux <form:checkbox path="operatingSystems" value="Linux" />
+	Mac OS<form:checkbox path="operatingSystems" value="Mac OS"/>
+	MS Windows<form:checkbox path="operatingSystems" value="MS Window" />
+	
+	<br><br>
+	
 	<input type="submit" value="Submit" />
 	</form:form>
 	

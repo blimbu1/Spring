@@ -23,7 +23,7 @@ public class DeleteStudentDemo {
 		
 		try {
 			
-			int studentId = 1;
+			int studentId = 2;
 			
 			// now get a new session and start transaction
 			
@@ -36,15 +36,20 @@ public class DeleteStudentDemo {
 			Student myStudent = session.get(Student.class, studentId);
 			
 			//delete the student
-			//System.out.println("Deleting student: "+ myStudent);
-			//session.delete(myStudent);
+			System.out.println("Deleting student: "+ myStudent);
+			session.delete(myStudent);
+			
+			session.getTransaction().commit();
 			
 			//Alternating method of deleting
 			//Delete student with id=2
 			
+			
+			session = factory.getCurrentSession();
+			session.beginTransaction();
 			System.out.println("Deleting studen id = 2");
 			
-			session.createQuery("delete from Student where id = 2").executeUpdate();
+			session.createQuery("delete from Student where lastName = 'Duck'").executeUpdate();
 			
 			
 			//commit the transaction

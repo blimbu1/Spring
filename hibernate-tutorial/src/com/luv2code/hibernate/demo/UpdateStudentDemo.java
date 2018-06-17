@@ -20,7 +20,7 @@ public class UpdateStudentDemo {
 		Session session = factory.getCurrentSession();
 		
 		try {
-			int studentId = 1;
+			int studentId = 2;
 			
 			//now get a new session and start transaction
 			session = factory.getCurrentSession();
@@ -46,6 +46,7 @@ public class UpdateStudentDemo {
 			
 			System.out.println("update email for all students");
 			
+			// this creates bulk updates.
 			session.createQuery("update Student set email='foo@gmail.com'").executeUpdate();
 			
 			//commit the transaction

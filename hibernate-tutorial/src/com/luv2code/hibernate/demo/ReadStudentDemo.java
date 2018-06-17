@@ -37,7 +37,7 @@ public class ReadStudentDemo {
 			// MY NEW CODE
 			
 			// find out the student's id: primary key
-			System.out.println("Saved stduent.Generated id: " + tempStudent.getId());
+			System.out.println("Saved student.Generated id: " + tempStudent.getId());
 			
 			//now get a new session and start transaction
 			session = factory.getCurrentSession();
