@@ -1,1 +1,1 @@
-[[{"location":"/usr/lib/jvm/java-8-oracle","type":"JRE","hints":{"EXECUTION_ENVIRONMENT":"JavaSE-1.8"}},"jre:jre:1.8.0"]]
+[[{"location":"/home/binay/eclipse-workspace/hb-04-one-to-many-uni/lib/hibernate-jpa-2.1-api-1.0.0.Final.jar","type":"JAR","hints":{}},"org.hibernate.javax:org.hibernate.javax.persistence.hibernate-jpa-2.1-api:1.0.0"],[{"location":"/usr/lib/jvm/java-8-oracle","type":"JRE","hints":{"EXECUTION_ENVIRONMENT":"JavaSE-1.8"}},"jre:jre:1.8.0"]]
