@@ -39,8 +39,10 @@
 <fullyQualifiedTypeName name="javax.persistence.GenerationType"/>
 <fullyQualifiedTypeName name="org.hibernate.Session"/>
 <fullyQualifiedTypeName name="org.hibernate.query.Query"/>
-<fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="javax.transaction.Transactional"/>
 <fullyQualifiedTypeName name="com.luv2code.aopdemo.dao.AccountDAO"/>
 <fullyQualifiedTypeName name="com.luv2code.aopdemo.dao.MembershipDAO"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="java.util.concurrent.TimeUnit"/>
+<fullyQualifiedTypeName name="com.luv2code.aopdemo.service.FortuneService"/>
 </qualifiedTypeNameHistroy>
