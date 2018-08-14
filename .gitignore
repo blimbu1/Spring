@@ -1,3 +1,12 @@
 /.metadata/
 /.recommenders/
 /bin/
+.classpath
+.project
+.metadata
+*/.classpath
+*/.project
+*/.gitignore
+.recommenders
+*/bin
+
