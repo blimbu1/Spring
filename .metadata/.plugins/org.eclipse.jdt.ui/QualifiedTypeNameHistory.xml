@@ -45,4 +45,5 @@
 <fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="java.util.concurrent.TimeUnit"/>
 <fullyQualifiedTypeName name="com.luv2code.aopdemo.service.FortuneService"/>
+<fullyQualifiedTypeName name="java.util.logging.Logger"/>
 </qualifiedTypeNameHistroy>
