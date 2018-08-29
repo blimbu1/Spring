@@ -46,4 +46,6 @@
 <fullyQualifiedTypeName name="java.util.concurrent.TimeUnit"/>
 <fullyQualifiedTypeName name="com.luv2code.aopdemo.service.FortuneService"/>
 <fullyQualifiedTypeName name="java.util.logging.Logger"/>
+<fullyQualifiedTypeName name="org.aspectj.lang.annotation.Aspect"/>
+<fullyQualifiedTypeName name="com.sun.istack.internal.logging.Logger"/>
 </qualifiedTypeNameHistroy>
