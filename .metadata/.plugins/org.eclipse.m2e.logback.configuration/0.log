@@ -1484,3 +1484,85 @@ org.eclipse.core.runtime.CoreException: Launch configuration App references clos
 2018-08-28 22:27:26,978 [Worker-53] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-config/5.0.0.RELEASE/spring-security-config-5.0.0.RELEASE.pom
 2018-08-28 22:27:27,111 [Worker-53] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-config/5.0.0.RELEASE/spring-security-config-5.0.0.RELEASE.jar
 2018-08-28 22:27:27,416 [Worker-53] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/springframework/security/spring-security-config/5.0.0.RELEASE/spring-security-config-5.0.0.RELEASE.jar
+2018-08-29 20:33:36,204 [Worker-0] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2018-08-29 20:38:30,692 [Worker-5] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2018-08-29 20:38:32,620 [Worker-5] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.luv2code:spring-security-demo:1.0 @ /home/binay/eclipse-workspace/spring-security-demo-02-basic-security/pom.xml.
+2018-08-29 20:38:35,060 [Worker-5] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /spring-security-demo-02-basic-security/src/main/java
+2018-08-29 20:38:35,063 [Worker-5] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /spring-security-demo-02-basic-security/src/test/java
+2018-08-29 20:38:36,259 [Worker-5] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for spring-security-demo-02-basic-security
+2018-08-29 20:38:36,284 [Worker-5] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 5 sec
+2018-08-29 20:52:55,175 [Worker-18] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for spring-security-demo-01-base-app
+2018-08-29 20:52:55,606 [Worker-5] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-08-29 20:52:55,607 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/binay/eclipse-workspace/spring-security-demo-01-base-app/src/main/resources
+2018-08-29 20:52:55,610 [Worker-5] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-08-29 20:52:55,611 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/binay/eclipse-workspace/spring-security-demo-01-base-app/src/test/resources
+2018-08-29 20:52:55,615 [Worker-5] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of spring-security-demo-01-base-app
+2018-08-29 20:52:55,616 [Worker-5] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for spring-security-demo-01-base-app
+2018-08-29 20:52:55,666 [Worker-5] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-08-29 20:52:55,821 [Worker-5] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-08-29 20:52:55,821 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/binay/eclipse-workspace/spring-security-demo-02-basic-security/src/main/resources
+2018-08-29 20:52:55,822 [Worker-5] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-08-29 20:52:55,823 [Worker-5] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/binay/eclipse-workspace/spring-security-demo-02-basic-security/src/test/resources
+2018-08-29 20:52:55,844 [Worker-5] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of spring-security-demo-02-basic-security
+2018-08-29 20:52:55,844 [Worker-5] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for spring-security-demo-02-basic-security
+2018-08-29 20:52:55,853 [Worker-5] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-08-29 21:03:30,756 [Worker-5] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for spring-security-demo-01-base-app
+2018-08-29 21:03:30,779 [Worker-5] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for spring-security-demo-02-basic-security
+2018-08-29 21:03:30,898 [Worker-27] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-08-29 21:03:30,989 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/binay/eclipse-workspace/spring-security-demo-01-base-app/src/main/resources
+2018-08-29 21:03:30,991 [Worker-27] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-08-29 21:03:30,993 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/binay/eclipse-workspace/spring-security-demo-01-base-app/src/test/resources
+2018-08-29 21:03:30,994 [Worker-27] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of spring-security-demo-01-base-app
+2018-08-29 21:03:30,994 [Worker-27] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for spring-security-demo-01-base-app
+2018-08-29 21:03:31,018 [Worker-27] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-08-29 21:03:31,164 [Worker-27] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-08-29 21:03:31,165 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/binay/eclipse-workspace/spring-security-demo-02-basic-security/src/main/resources
+2018-08-29 21:03:31,167 [Worker-27] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-08-29 21:03:31,167 [Worker-27] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/binay/eclipse-workspace/spring-security-demo-02-basic-security/src/test/resources
+2018-08-29 21:03:31,167 [Worker-27] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of spring-security-demo-02-basic-security
+2018-08-29 21:03:31,168 [Worker-27] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for spring-security-demo-02-basic-security
+2018-08-29 21:03:31,174 [Worker-27] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-08-29 21:04:44,230 [Worker-5] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for spring-security-demo-01-base-app
+2018-08-29 21:04:44,237 [Worker-5] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for spring-security-demo-02-basic-security
+2018-08-29 21:04:44,330 [Worker-23] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-08-29 21:04:44,336 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/binay/eclipse-workspace/spring-security-demo-01-base-app/src/main/resources
+2018-08-29 21:04:44,338 [Worker-23] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-08-29 21:04:44,338 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/binay/eclipse-workspace/spring-security-demo-01-base-app/src/test/resources
+2018-08-29 21:04:44,344 [Worker-23] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of spring-security-demo-01-base-app
+2018-08-29 21:04:44,344 [Worker-23] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for spring-security-demo-01-base-app
+2018-08-29 21:04:44,352 [Worker-23] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-08-29 21:04:44,466 [Worker-23] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-08-29 21:04:44,467 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/binay/eclipse-workspace/spring-security-demo-02-basic-security/src/main/resources
+2018-08-29 21:04:44,468 [Worker-23] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-08-29 21:04:44,468 [Worker-23] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/binay/eclipse-workspace/spring-security-demo-02-basic-security/src/test/resources
+2018-08-29 21:04:44,469 [Worker-23] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of spring-security-demo-02-basic-security
+2018-08-29 21:04:44,469 [Worker-23] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for spring-security-demo-02-basic-security
+2018-08-29 21:04:44,472 [Worker-23] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-08-30 22:16:13,954 [Worker-1] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2018-08-30 22:26:13,326 [Worker-19] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2018-08-30 22:26:16,197 [Worker-19] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.luv2code:spring-security-demo:1.0 @ /home/binay/eclipse-workspace/spring-security-demo-03-custom-login-form/pom.xml.
+2018-08-30 22:26:19,664 [Worker-19] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /spring-security-demo-03-custom-login-form/src/main/java
+2018-08-30 22:26:19,670 [Worker-19] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /spring-security-demo-03-custom-login-form/src/test/java
+2018-08-30 22:26:20,924 [Worker-19] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for spring-security-demo-03-custom-login-form
+2018-08-30 22:26:20,936 [Worker-19] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 7 sec
+2018-08-30 22:46:53,579 [Worker-32] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for spring-security-demo-02-basic-security
+2018-08-30 22:46:53,981 [Worker-21] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-08-30 22:46:53,982 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/binay/eclipse-workspace/spring-security-demo-02-basic-security/src/main/resources
+2018-08-30 22:46:53,991 [Worker-21] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-08-30 22:46:53,992 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/binay/eclipse-workspace/spring-security-demo-02-basic-security/src/test/resources
+2018-08-30 22:46:54,004 [Worker-21] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of spring-security-demo-02-basic-security
+2018-08-30 22:46:54,011 [Worker-21] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for spring-security-demo-02-basic-security
+2018-08-30 22:46:54,029 [Worker-21] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-08-30 22:46:54,174 [Worker-21] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-08-30 22:46:54,174 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/binay/eclipse-workspace/spring-security-demo-03-custom-login-form/src/main/resources
+2018-08-30 22:46:54,176 [Worker-21] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-08-30 22:46:54,176 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/binay/eclipse-workspace/spring-security-demo-03-custom-login-form/src/test/resources
+2018-08-30 22:46:54,177 [Worker-21] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of spring-security-demo-03-custom-login-form
+2018-08-30 22:46:54,177 [Worker-21] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for spring-security-demo-03-custom-login-form
+2018-08-30 22:46:54,181 [Worker-21] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-08-30 23:19:07,085 [Worker-45] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2018-08-30 23:19:07,399 [Worker-45] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: com.luv2code:spring-security-demo:1.0 @ /home/binay/eclipse-workspace/spring-security-demo-04-bootstrap-login-form/pom.xml.
+2018-08-30 23:19:07,979 [Worker-45] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /spring-security-demo-04-bootstrap-login-form/src/main/java
+2018-08-30 23:19:07,980 [Worker-45] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /spring-security-demo-04-bootstrap-login-form/src/test/java
+2018-08-30 23:19:08,226 [Worker-45] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for spring-security-demo-04-bootstrap-login-form
+2018-08-30 23:19:08,228 [Worker-45] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 1 sec
