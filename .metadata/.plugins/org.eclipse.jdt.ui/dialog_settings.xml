@@ -14,7 +14,7 @@
 		<item value="false" key="updateTextualMatches"/>
 	</section>
 	<section name="GenerateConstructorUsingFieldsSelectionDialog">
-		<item value="false" key="OmitCallToSuper"/>
+		<item value="true" key="OmitCallToSuper"/>
 	</section>
 	<section name="DialogBounds_SuperInterfaceSelectionDialog">
 		<item value="412" key="DIALOG_WIDTH"/>
@@ -74,9 +74,9 @@
 		<item value="131" key="DIALOG_Y_ORIGIN"/>
 	</section>
 	<section name="DialogBounds_GetterSetterTreeSelectionDialog">
-		<item value="658" key="DIALOG_WIDTH"/>
+		<item value="638" key="DIALOG_WIDTH"/>
 		<item value="1|Ubuntu|11.0|0|GTK|1|" key="DIALOG_FONT_NAME"/>
-		<item value="775" key="DIALOG_HEIGHT"/>
+		<item value="755" key="DIALOG_HEIGHT"/>
 		<item value="114" key="DIALOG_X_ORIGIN"/>
 		<item value="0" key="DIALOG_Y_ORIGIN"/>
 	</section>
@@ -119,8 +119,8 @@
 	<section name="quick_assist_proposal_size">
 	</section>
 	<section name="completion_proposal_size">
-		<item value="238" key="size.y"/>
-		<item value="353" key="size.x"/>
+		<item value="206" key="size.y"/>
+		<item value="321" key="size.x"/>
 	</section>
 	<section name="AddGetterSetterDialog">
 		<item value="false" key="SortOrdering"/>
