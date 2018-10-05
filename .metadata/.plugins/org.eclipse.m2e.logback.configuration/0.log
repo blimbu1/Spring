@@ -2665,3 +2665,4 @@ org.eclipse.core.runtime.CoreException: Launch configuration Driver references c
 2018-10-03 21:12:47,782 [Worker-43] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of spring-crm-rest-demo
 2018-10-03 21:12:47,782 [Worker-43] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for spring-crm-rest-demo
 2018-10-03 21:12:47,824 [Worker-43] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+2018-10-05 20:51:52,914 [Worker-5] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
